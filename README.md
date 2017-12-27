@@ -9,6 +9,9 @@ start_exec="app\app.exe"
 start_url="http://127.0.0.1:9999/index"   
 6.配置完毕，双击D:\dist\launcher.exe，即可看到效果了。  
 
+# Demo
+![demo](/docs/images/demo.png)
+
 **提示：**  
 如果app.exe是go程序，为了避免出现程序启动出现命令行黑框，编译go程序的时候加上参数：go build  -ldflags="-H=windowsgui"  
 
