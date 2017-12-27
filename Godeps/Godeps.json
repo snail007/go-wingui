@@ -1,0 +1,15 @@
+{
+	"ImportPath": "go-wingui",
+	"GoVersion": "go1.8",
+	"GodepVersion": "v79",
+	"Packages": [
+		"./..."
+	],
+	"Deps": [
+		{
+			"ImportPath": "github.com/cztomczak/cef2go/src/github.com/go-ini/ini",
+			"Comment": "v1.32.0",
+			"Rev": "32e4c1e6bc4e7d0d8451aa6b75200d19e37a536a"
+		}
+	]
+}
