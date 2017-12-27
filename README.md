@@ -10,7 +10,7 @@ start_url="http://127.0.0.1:9999/index"
 6.配置完毕，双击D:\dist\launcher.exe，即可看到效果了。  
 
 **提示：**  
-如果是go程序，为了避免出现程序启动出现命令行黑框，编译go程序的时候加上参数：go build  -ldflags="-H=windowsgui"  
+如果app.exe是go程序，为了避免出现程序启动出现命令行黑框，编译go程序的时候加上参数：go build  -ldflags="-H=windowsgui"  
 
 # 原理介绍
 本项目原理是写了一个本地应用，使用autoit3脚本技术把自带的谷歌浏览器嵌入到应用里面实现了一个“浏览器”，然后“浏览器”里面打开go网站，这样就实现了一个不依赖系统浏览器的独立gui本地应用程序。我们可以使用方便强大的html+css+js完成优美的应用界面，功能可以通过RPC，ajax调用后端go Web服务实现。
@@ -21,3 +21,5 @@ git clone https://github.com/snail007/go-wingui.git ./
 2.下载绿色版chrome浏览器，解压后把文件夹chrome，放在位置：go-wingui/cef/chrome，chrome.exe的路径应该是：go-wingui/cef/chrome/chrome.exe  
 3.开发环境完成  
 
+# 特别提示
+由于本地应用cef.exe是用autoit3脚本语言编写，autoit3编译生成的exe文件被很多杀毒软件不待见，误报是病毒，请不用理会，程序开放源代码，如果不放心也可以自己编译。
