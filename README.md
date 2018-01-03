@@ -33,8 +33,7 @@ clone源码：
 git clone https://github.com/snail007/go-wingui.git ./   
 
 1.delphi7  
-cef是delphi7开发，使用的是第三方cef4delphi控件，本项目对控件做了定制化修改。  
-已经安装了cef4delphi控件的绿色免安装版delphi7下载地址： [delphi7](https://github.com/snail007/go-wingui/releases/tag/BorlandDelphi7)   
+cef是delphi7开发，使用的是第三方cef4delphi控件，已经安装了cef4delphi控件的绿色免安装版delphi7下载地址： [delphi7](https://github.com/snail007/go-wingui/releases/tag/BorlandDelphi7)   
 
 2、解压delphi7  
 双击BorlandDelphi7\Bin\DELPHI32.EXE,启动delphi7，
