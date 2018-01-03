@@ -1,6 +1,6 @@
 # 使用说明
 1.环境要求是windows，理论上xp以上32位，64位都支持。  
-2.下载程序[go-wingui](https://github.com/snail007/go-wingui/releases/tag/2.0)  
+2.下载程序[go-wingui](https://github.com/snail007/go-wingui/releases/tag/v2.0)  
 3.解压到比如D盘，D:\dist  
 4.把你的go网站程序(假设名字是app.exe)放入D:\dist\app文件夹  
 5、假设你的app.exe启动之后，访问链接是http://127.0.0.1:9999/index  
@@ -20,11 +20,12 @@ start_url="http://127.0.0.1:9999/index"
 
 # 特点
 - 使用新版CEF内核Chromium 63.0.3239.109，页面可以使用最新的css3，html5技术。
-- JS注入，可以对打开的任意页面注入你的js代码。
+- JS注入，可以对打开的任意页面注入你的js代码，把要注入的js代码写入srv\inject.js里面即可。
 - 外观大小自由控制，可以自由设置宽度高度，以及能否改变窗体大小。
 - 几乎覆盖所有windows系统，xp以上32位，64位都支持。
 - 代码全部开源，CEF的delphi7项目源码，内部服务和启动器项目的golang源码都开源。
 - 详细的二次开发步骤，帮助你二次开发。
+- 发行包只有28M，但是已经包含了所有的chrome浏览器功能，已经内部服务。
 
 #  源码使用  
 clone源码：  
