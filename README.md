@@ -34,7 +34,7 @@ git clone https://github.com/snail007/go-wingui.git ./
 
 1.delphi7  
 cef是delphi7开发，使用的是第三方cef4delphi控件，本项目对控件做了定制化修改。  
-已经安装了cef4delphi控件的绿色免安装版delphi7下载地址： ![delphi7](https://github.com/snail007/go-wingui/releases/tag/BorlandDelphi7)   
+已经安装了cef4delphi控件的绿色免安装版delphi7下载地址： [delphi7](https://github.com/snail007/go-wingui/releases/tag/BorlandDelphi7)   
 
 2、解压delphi7  
 双击BorlandDelphi7\Bin\DELPHI32.EXE,启动delphi7，
@@ -44,8 +44,8 @@ cef是delphi7开发，使用的是第三方cef4delphi控件，本项目对控件
 
 3、cef内核  
 本项目使用的是32bit CEF 3.3239.1710.g85f637a which includes Chromium 63.0.3239.109.
-下载![cef](https://github.com/snail007/go-wingui/releases/tag/cef_3.3239.1710.g85f637a_Chromium-63.0.3239.109)，并解压到：cef\bin,
-本项目对cef进行了一些精简，便于下载使用。如果需要更新cef，下载最新版cef，  
+下载[cef](https://github.com/snail007/go-wingui/releases/tag/cef_3.3239.1710.g85f637a_Chromium-63.0.3239.109)，并解压到：cef\bin,
+本项目对cef进行了一些精简，便于下载使用。如果需要更新cef，下载最新版cef（不保证稳定性），  
 解压到cef\bin即可。  
 
 4、delphi7的工程项目是cef\SimpleBrowser  
@@ -57,7 +57,7 @@ cef\SimpleBrowser\SimpleBrowser_D7.dpr是工程文件，启动delphi7打开此�
 
 ### cef4delphi控件  
 如果不需要定制化cef4delphi控件，跳过第本步骤。  
-下载地址：![cef4delphi](https://github.com/snail007/go-wingui/releases/tag/CEF4Delphi)   
+下载地址：[cef4delphi](https://github.com/snail007/go-wingui/releases/tag/CEF4Delphi)   
 如果需要重新定制化cef4delphi控件，需要修改cef4delphi控件源码，然后安装控件到delphi7中。   
 步骤如下：  
 1、删除cef4delphi控件  
