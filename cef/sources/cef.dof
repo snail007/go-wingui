@@ -121,7 +121,7 @@ Locale=1033
 CodePage=1252
 [Version Info Keys]
 CompanyName=snail007
-FileDescription=cef加载器
+FileDescription=CEF加载器
 FileVersion=1.0.0.0
 InternalName=cef_launcher
 LegalCopyright=arraykeys@gmail.com
@@ -129,7 +129,7 @@ LegalTrademarks=
 OriginalFilename=cef_launcher
 ProductName=cef_launcher
 ProductVersion=1.0.0.0
-Comments=
+Comments=arraykeys@gmail.com版权所有
 [HistoryLists\hlUnitAliases]
 Count=1
 Item0=WinTypes=Windows;WinProcs=Windows;DbiTypes=BDE;DbiProcs=BDE;DbiErrs=BDE;
