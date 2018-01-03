@@ -47,8 +47,8 @@ cef是delphi7开发，使用的是第三方cef4delphi控件，已经安装了cef
 本项目对cef进行了一些精简，便于下载使用。如果需要更新cef，下载最新版cef（不保证稳定性），  
 解压到cef\bin即可。  
 
-4、delphi7的工程项目是cef\SimpleBrowser  
-cef\SimpleBrowser\SimpleBrowser_D7.dpr是工程文件，启动delphi7打开此文件即可。  
+4、delphi7的工程项目是cef\sources  
+cef\sources\cef.dpr是工程文件，启动delphi7打开此文件即可。  
 
 5、启动器launcher和内部服务srv是golang开发，走标准的go项目开发流程就行。  
 
