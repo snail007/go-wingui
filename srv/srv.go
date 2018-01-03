@@ -7,6 +7,7 @@ import (
 	"net"
 	"net/http"
 	"os"
+	"path/filepath"
 	"strings"
 	"time"
 )
@@ -31,6 +32,15 @@ func handler(w http.ResponseWriter, req *http.Request) {
 			fmt.Fprintf(w, "1")
 		}
 		fmt.Println(err)
+	} else {
+		fileP, _ := filepath.Abs("." + req.URL.Path)
+		current, _ := filepath.Abs("./")
+		if f, err := os.Stat(fileP); err != nil || f.IsDir() {
+			return
+		}
+		if strings.HasPrefix(fileP, current) {
+			http.ServeFile(w, req, fileP)
+		}
 	}
 }
 
