@@ -22,7 +22,7 @@ start_exec="app\app.exe"
 start_url="http://127.0.0.1:9999/index"   
 6.配置完毕，双击D:\dist\launcher.exe，即可看到效果了。  
 # 加入组织
-欢迎加入QQ群号码：189618940   
+任何问题可以加群讨论交流，欢迎加入QQ群号码：189618940   
 
 # Demo
 ![demo](/docs/images/demo.png)
