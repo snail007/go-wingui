@@ -12,7 +12,7 @@
 - 发行包只有28M，但是已经包含了所有的chrome浏览器功能，以及内部服务。
 
 # 使用说明
-1.环境要求是windows，理论上xp以上32位，64位都支持。  
+1.环境要求是windows，理论上win7以上32位，64位都支持。  
 2.下载程序[go-wingui](https://github.com/snail007/go-wingui/releases/tag/v2.0)  
 3.解压到比如D盘，D:\dist  
 4.把你的go网站程序(假设名字是app.exe)放入D:\dist\app文件夹  
