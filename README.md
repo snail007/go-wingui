@@ -1,5 +1,6 @@
-# 原理介绍
 本项目是golang在windows上用户图形界面gui解决方案,本项目可以不用对你的go写的网站程序做任何修改,就可以实现本地化,项目原理是写了一个本地应用，使用开源的CEF框架实现了一个“浏览器”，然后“浏览器”里面打开go网站，这样就实现了一个不依赖系统浏览器的独立gui本地应用程序。我们可以使用方便强大的html+css+js完成优美的应用界面，功能可以通过RPC，ajax调用后端go Web服务实现。
+
+[![stable](https://img.shields.io/badge/stable-stable-green.svg)](https://github.com/snail007/go-wingui/) [![license](https://img.shields.io/github/license/snail007/go-wingui.svg?style=plastic)]() [![download_count](https://img.shields.io/github/downloads/snail007/go-wingui/total.svg?style=plastic)](https://github.com/snail007/go-wingui/releases) [![download](https://img.shields.io/github/release/snail007/go-wingui.svg?style=plastic)](https://github.com/snail007/go-wingui/releases) 
 
 # 特点
 - 使用新版CEF内核Chromium 63.0.3239.109，页面可以使用最新的css3，html5技术。
