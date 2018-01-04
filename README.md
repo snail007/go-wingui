@@ -17,10 +17,10 @@
 3.解压到比如D盘，D:\dist  
 4.把你的go网站程序(假设名字是app.exe)放入D:\dist\app文件夹  
 5、假设你的app.exe启动之后，访问链接是http://127.0.0.1:9999/index  
-编辑D:\dist\launcher.ini,做如下部分修改： 
-start_exec="app/app.exe"  
+编辑D:\dist\launcher.ini,做如下部分修改：     
+start_exec="app/app.exe"   
 start_directory="app"   
-start_url="http://127.0.0.1:9999/index"   
+start_url="http://127.0.0.1:9999/index"     
 6.配置完毕，双击D:\dist\launcher.exe，即可看到效果了。  
 # 加入组织
 任何问题可以加群讨论交流，欢迎加入QQ群号码：189618940   
