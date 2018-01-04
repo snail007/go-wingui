@@ -120,6 +120,7 @@ func startApp() {
 	if argsString.String() == "" {
 		return
 	}
+	execDir, _ := cfg.Section("").GetKey("start_directory")
 	args := strings.Split(argsString.String(), " ")
 	app, _ := filepath.Abs(args[0])
 	if len(args) > 1 {
@@ -127,7 +128,15 @@ func startApp() {
 	} else {
 		cmdApp = exec.Command(app)
 	}
-	cmdApp.Dir = filepath.Dir(app)
+	d := ""
+	if execDir.String() != "" {
+		d, _ = filepath.Abs(execDir.String())
+	} else {
+		d, _ = filepath.Abs(app)
+		d = filepath.Dir(d)
+	}
+	cmdApp.Dir = d
+
 	err := cmdApp.Start()
 	if err != nil {
 		fmt.Printf("ERR:%s", err)

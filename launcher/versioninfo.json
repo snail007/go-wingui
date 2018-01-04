@@ -2,13 +2,13 @@
     "FixedFileInfo": {
         "FileVersion": {
             "Major": 2,
-            "Minor": 0,
+            "Minor": 1,
             "Patch": 0,
             "Build": 0
         },
         "ProductVersion": {
             "Major": 2,
-            "Minor": 0,
+            "Minor": 1,
             "Patch": 0,
             "Build": 0
         },
@@ -22,14 +22,14 @@
         "Comments": "Go-WinGui启动器",
         "CompanyName": "snail007",
         "FileDescription": "Go-WinGui启动器",
-        "FileVersion": "2.0",
+        "FileVersion": "2.1",
         "InternalName": "launcher.exe",
         "LegalCopyright": "arraykeys@gmail.com",
         "LegalTrademarks": "",
         "OriginalFilename": "launcher.exe",
         "PrivateBuild": "",
         "ProductName": "Go-WinGui启动器",
-        "ProductVersion": "v2.0",
+        "ProductVersion": "v2.1",
         "SpecialBuild": ""
     },
     "VarFileInfo": {
