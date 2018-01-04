@@ -6,7 +6,7 @@
 - 使用新版CEF内核Chromium 63.0.3239.109，页面可以使用最新的css3，html5技术。
 - JS注入，可以对打开的任意页面注入你的js代码，把要注入的js代码写入srv\inject.js里面即可。
 - 外观大小自由控制，可以自由设置宽度高度，以及能否改变窗体大小。
-- 几乎覆盖所有windows系统，xp以上32位，64位都支持。
+- 几乎覆盖所有windows系统，win7以上32位，64位都支持。
 - 代码全部开源，CEF的delphi7项目源码，内部服务和启动器项目的golang源码都开源。
 - 详细的二次开发步骤，帮助你二次开发。
 - 发行包只有28M，但是已经包含了所有的chrome浏览器功能，以及内部服务。
@@ -22,6 +22,8 @@ start_exec="app/app.exe"
 start_directory="app"   
 start_url="http://127.0.0.1:9999/index"   
 6.配置完毕，双击D:\dist\launcher.exe，即可看到效果了。  
+# 加入组织
+任何问题可以加群讨论交流，欢迎加入QQ群号码：189618940   
 
 # Demo
 ![demo](/docs/images/demo.png)
